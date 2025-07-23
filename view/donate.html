@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate | Chungpor Kaing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .donation-container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 30px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .donation-container h2 {
+      color: #003087;
+      margin-bottom: 10px;
+    }
+
+    .donation-buttons button {
+      background-color: #0070ba;
+      color: white;
+      border: none;
+      margin: 5px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .donation-buttons button:hover {
+      background-color: #005ea6;
+    }
+
+    .custom-amount {
+      margin-top: 15px;
+    }
+
+    .custom-amount input {
+      padding: 8px;
+      width: 80%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .payment-methods {
+      margin-top: 25px;
+    }
+
+    .payment-methods img {
+      width: 100px;
+      margin: 0 10px;
+      opacity: 0.9;
+    }
+
+    .submit-button {
+      margin-top: 20px;
+    }
+
+    .submit-button button {
+      width: 100%;
+      padding: 12px;
+      background-color: #ffc439;
+      color: #111;
+      font-weight: bold;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .submit-button button:hover {
+      background-color: #ffb400;
+    }
+  </style>
+</head>
+<body>
+  <div class="donation-container">
+    <h2>Support Our Work</h2>
+    <p>Your donation helps us make a difference!</p>
+
+    <div class="donation-buttons">
+      <button>$5</button>
+      <button>$10</button>
+      <button>$20</button>
+      <button>$50</button>
+    </div>
+
+    <div class="custom-amount">
+      <p>Or enter a custom amount:</p>
+      <input type="text" placeholder="Enter amount (USD)" />
+    </div>
+
+    <div class="payment-methods">
+      <p>Donate using:</p>
+      <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" alt="PayPal" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" />
+    </div>
+    <link rel="stylesheet" href="style.css" />
+
+
+    <div class="submit-button">
+      <button>Donate Now</button>
+    </div>
+  </div>
+</body>
+</html>

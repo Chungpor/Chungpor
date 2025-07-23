@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donation Page</title>
+  <link rel="stylesheet" href="../css/payment.css">
+</head>
+<body>
+  <div class="container">
+    <div class="language-toggle">
+      <button>US EN</button>
+      <button>KH ខ្មែរ</button>
+    </div>
+
+    <div class="profile-section">
+      <img src="profile.jpg" class="small-avatar" alt="">
+      <h2>KAING CHUNGPOR</h2>
+      <p>Entertainment & Art</p>
+    </div>
+
+    <div class="banner">
+      <img src="../img/IMG.jpg" alt="Banner Background" class="banner-img">
+      <img src="../img/IMG.jpg" class="center-avatar" alt="Profile Circle">
+    </div>
+
+    <form class="payment-form" onsubmit="handleSubmit(event)">
+      <h3>Payment info</h3>
+      <label for="amount">Amount <span class="required">*</span></label>
+      <div class="input-group">
+        <input type="number" id="amount" placeholder="Please input amount" required>
+        <span class="currency">USD</span>
+      </div>
+      <button type="submit">Continue</button>
+    </form>
+  </div>
+
+  <script src="../view/js/java.js"></script>
+</body>
+</html>

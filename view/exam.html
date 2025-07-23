@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #1a73e8;
+    }
+
+    p {
+      color: #333;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #1a73e8;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0c5bd3;
+    }
+
+    #message {
+      margin-top: 20px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, Telegram User!</h1>
+  <p>Click the button to see a JavaScript message.</p>
+  <button onclick="showMessage()">Click Me</button>
+  <div id="message"></div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerText = "You clicked the button! 🎉";
+    }
+  </script>
+</body>
+</html>
